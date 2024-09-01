@@ -1,0 +1,84 @@
+---
+title: "&#32;" 
+output: html_document
+---
+<!-- &#32; used to remove title text -->
+
+
+<!-- used to justify text -->
+<style>
+body {
+text-align: justify}
+</style>
+
+# Climate Change and Global Temperature Rise
+
+The Paris Climate Agreement, adopted in 2015 by 196 countires, is a global treaty aimed at limiting global warming to well below 2°C above pre-industrial levels, with efforts to limit the increase to 1.5°C. This agreement represents a collective effort by nations worldwide to address climate change and its impacts. The agreement's temperature targets were based on scientific evidence suggesting that limiting warming to these levels could significantly reduce the risks and impacts of climate change. The 1.5°C target, in particular, was emphasised to protect vulnerable populations and ecosystems. Additionally, determining when global temperature rise reaches 1.5°C is essential for establishing global policies and is also crucial for various activities under the [United Nations Framework Convention on Climate Change (UNFCCC)](https://unfccc.int). 
+
+
+## Challenges in Measuring Global Temperature Rise
+
+Accurately measuring and interpreting global temperature rise presents several significant challenges. One key issue is the lack of consensus on the "pre-industrial" baseline period, with different studies and datasets using various reference points. This inconsistency can affect how current warming levels are interpreted relative to the Paris Agreement goals. Furthermore, global temperatures do not follow a simple, linear progression. Instead, they exhibit a complex pattern of short-term fluctuations superimposed on a long-term warming trend. This complexity makes it difficult to distinguish between human-induced warming and natural climate variability. Two critical factors in this regard are:
+
+- Natural Variability: Short-term temperature variations can be caused by natural climate phenomena, such as El Niño events or changes in solar activity. These fluctuations can mask or amplify the underlying long-term warming trend.
+
+- Anthropogenic vs. Natural Influences: Distinguishing between human-induced warming and natural climate variability requires careful analysis of long-term trends.
+
+The choice of time scale for measuring temperature change also significantly impacts the assessment of global warming. While monthly or yearly data can be strongly influenced by natural variability,  multi-decade averages are generally used to assess global warming levels, as these longer-term averages better reflect trends and minimise the impact of short-term fluctuations. The Paris Agreement's temperature targets are generally understood to refer to these long-term average temperature changes since the pre-industrial (1850-1900) period, rather than short-term peaks or individual years. Some scientific bodies, such as the [Intergovernmental Panel on Climate Change Sixth Assessment Report](https://www.ipcc.ch), define policy-relevant warming levels using multi-decade averages relative to pre-industrial baselines. However, as of this date, there is no agreed indicator for tracking progress against the Paris Agreement temperature goal. 
+
+### Dataset Variability
+
+Multiple datasets are used to estimate global temperature changes, each with its own methodology, coverage, and uncertainties. This dashboard incorporates several of these datasets to provide a comprehensive view of global warming estimates. These datasets offer different perspectives on global warming due to variations in; data sources (e.g., land-based stations, satellite measurements, ocean buoys), geographic coverage, and differing statistical methods. Table 1 below provides an overview of the datasets used.
+
+### Approaches to Measuring Global Surface Warming
+
+The complexity of climate systems necessitates multiple methods for quantifying global surface temperature rise. While the Intergovernmental Panel on Climate Change (IPCC) has historically used multi-year averages to report temperature increases, these retrospective measures can lag behind current conditions by 5 to 10 years. This delay highlights the need for more timely indicators to inform climate policy and action.
+To address this challenge, researchers have developed various methods that aim to provide more current estimates of global warming levels. These approaches seek to balance the need for up-to-date information with the importance of minimizing the influence of short-term natural climate variability. Some methods employ statistical techniques to smooth temperature data over time, while others analyse trends over specific periods, such as 30-year intervals. Another significant approach focuses on isolating human-induced warming. This method combines observed changes in greenhouse gas and aerosol concentrations with calculations of their radiative forcing effects and estimates of climate sensitivity. This indicator played a crucial role in the IPCC's [Special Report: Global Warming of 1.5°C](https://www.ipcc.ch/sr15/). More recent innovations involve combining historical observations with climate change projections to estimate current warming levels. These hybrid approaches aim to provide a more forward-looking perspective on global temperature trends. Despite the variety of methods employed, there is a general consensus among indicators centered on recent years. These measures typically suggest that current global surface warming is approximately 1.2°C to 1.3°C above pre-industrial levels. This estimate is notably higher than the warming indicated by simple 10-year or 20-year averages, which tend to show lower values around 1.0°C to 1.1°C.  [Betts et al. (2023)](https://www.nature.com/articles/d41586-023-03775-z) highlight the necessity of establishing a formally agreed-upon indicator to monitor global warming levels in relation to the Paris Agreement temperature targets. They recommend that this indicator should be derived from the 20-year average temperature anomaly centred on the current year, incorporating both observational data and projections (See Tab 2: Surface Warming 1950-2022). This method aligns with the IPCC’s definition of Global Warming Level (Table 1: CGWL) and would ensure a consistent measure of current global warming. Table 2 below provides an overview of the methods used in this dashboard.
+
+### Table 1: Current Global Surface Warming Estimates
+
+| **Description**             | **Surface Warming**                                                                                           |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Last 20-yr avg GWL**       | Average of last 20 years using observed surface temperature timeseries based on IPCC methods ([Forster et al., 2023](https://essd.copernicus.org/articles/15/2295/2023/)). Centred on 10 years in the past. 1.03 [0.87 — 1.13] °C |
+| **Last 10-yr avg**           | Average of last 10 years using observed surface temperature timeseries based on IPCC methods ([Forster et al., 2023](https://essd.copernicus.org/articles/15/2295/2023/)). Centred on 5 years in the past. 1.15 [1.00 — 1.25] °C |
+| **End of 30-yr trend**       | End of 30-year linear trend using observed surface temperature timeseries based on IPCC methods ([Forster et al., 2023](https://essd.copernicus.org/articles/15/2295/2023/)). Ending in 2022. Indicative uncertainties are based on the average of last 20 years of observations (see above). 1.23 [1.07 — 1.33] °C |
+| **End of 30-yr trend C3S**   | End of 30-year linear trend using [Copernicus Climate Change Service](https://climate.copernicus.eu) surface temperature timeseries. Ending in September 2023. Indicative uncertainties are based on the average of last 20 years of observations (see above). 1.24 [1.07 — 1.33] °C |
+| **Human-induced warming**    | An estimate of the surface temperature rise attributable to forcing of the climate system from human activities ([Forster et al., 2023](https://essd.copernicus.org/articles/15/2295/2023/)). Value for 2022. 1.26 [1.0 — 1.6] °C |
+| **UKCP18 RCP4.5 CGWL**       | Average of 20-year period based on last 10 years of observations and next 10 years from [UKCP18](https://www.metoffice.gov.uk/research/approach/collaboration/ukcp) climate projections under the RCP4.5 scenario. Centred on 2022. 1.25 [1.15 — 1.35] °C |
+| **Forecast RCP4.5 CGWL**     | Average of 20-year period based on last 10 years of observations and next 10 years from [World Meteorological Organisation](https://hadleyserver.metoffice.gov.uk/wmolc/) decadal forecasts under the RCP4.5 scenario. Centred on 2022. 1.31 [1.19 — 1.43] °C |
+| **NASA_GISS**                | NASA's Goddard Institute for Space Studies global surface temperature dataset. It provides a historical record of surface temperatures, including both land and ocean data, relative to a 1951-1980 baseline. |
+| **HADCRUT5**                 | The [HadCRUT5](https://www.metoffice.gov.uk/hadobs/hadcrut5/) dataset combines sea surface temperature data from ships and buoys with land surface air temperature data to produce a global temperature timeseries relative to a 1961-1990 reference period. |
+| **CRUTEM5**                  | A gridded dataset of near-surface air temperature anomalies. [CRUTEM5](https://www.metoffice.gov.uk/hadobs/crutem5/) provides a historical record of land temperatures relative to the 1961-1990 average, excluding ocean data. |
+| **HADSST**                   | The Hadley Centre Sea Surface Temperature [(HadSST)](https://www.metoffice.gov.uk/hadobs/hadsst4/) dataset provides a historical record of sea surface temperature anomalies, relative to a 1961-1990 baseline, derived from ship-based measurements and buoys. |
+| **NOAA_NCEI**                | The [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov) dataset provides global temperature anomalies using combined land and ocean data, relative to a 1901-2000 baseline. It is widely used for climate monitoring. |
+| **ERA_5**                    | [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) is a reanalysis dataset produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It combines historical observations with model data to produce global temperature anomalies relative to a 1981-2010 baseline. |
+| **HAD_CRUT4_Krig**           | A variant of the HadCRUT4 dataset that uses kriging to provide better spatial coverage and interpolation, resulting in a more complete global surface temperature timeseries. |
+| **Berkeley**                 | The [Berkeley Earth Surface Temperature dataset](https://berkeleyearth.org/data/) offers a comprehensive global temperature record, combining land and sea data, with anomalies reported relative to a 1951-1980 baseline. |
+
+Table 1: An overview of the different datasets available for analysing global surface temperature anomalies relative to pre-industrial or specific reference periods. Each dataset represents temperature data collected and processed through various methodologies. The Global Warming Level (GWL) refers to an indicator aligned with the Intergovernmental Panel on Climate Change’s definition of global warming. The Current Global Warming Level (CGWL) is an indicator discussed in  [Betts et al. (2023)](https://www.nature.com/articles/d41586-023-03775-z). Additional details regarding the decadal forecasts referenced in the datasets can be found in [Hermanson et al. (2022)](https://journals.ametsoc.org/view/journals/bams/103/4/BAMS-D-20-0311.1.xml).
+
+
+
+
+| **Statistical Method** | **Description** |
+|:----------------------:|---------------|
+| **LOESS**              | Locally Estimated Scatterplot Smoothing (LOESS) is a non-parametric regression method that creates a smooth line through a scatterplot by fitting simple models to localized subsets of the data. This method is useful for capturing trends in the data without assuming a specific functional form. |
+| **Spline**             | A spline is a flexible, piecewise polynomial function that is used to fit smooth curves to data. In this context, a penalized cubic regression spline is applied to the data, which provides a smooth fit while controlling for overfitting by penalizing the roughness of the spline. |
+| **AR1**                | An Auto-Regressive model of order 1 (AR1) assumes that the current value in a timeseries is linearly dependent on the immediately preceding value, with an added noise component. It is used for modeling serial correlation in time-series data. |
+| **ARIMA**              | Auto-Regressive Integrated Moving Average (ARIMA) is a popular statistical model used to forecast and analyze time-series data. It combines three components: autoregression (AR), differencing (I) to make the data stationary, and a moving average (MA) to model the noise. |
+| **COR**                | Cubic Orthogonal Regression (COR) involves fitting a cubic polynomial regression model to the data, where the polynomial terms are orthogonalized. This method is used to model non-linear relationships in the data. |
+| **OSMA10**             | One-Sided Moving Average over 10 years (OSMA10) smooths the data by averaging the values in a 10-year window, only using past data points. This method is useful for emphasizing longer-term trends by reducing short-term fluctuations. |
+| **OSMA20**             | One-Sided Moving Average over 20 years (OSMA20) is similar to OSMA10 but uses a 20-year window, providing an even smoother trend line that emphasizes long-term changes. |
+| **30yrlt**             | The 30-Year Linear Trend (30yrlt) method calculates the slope of a linear regression over the most recent 30 years of data. This provides an estimate of the rate of change over a longer period, often used to understand persistent trends. |
+| **20yrlt**             | The 20-Year Linear Trend (20yrlt) is similar to the 30-Year Linear Trend but uses a shorter, 20-year period. This method is useful for capturing more recent trends while still considering a substantial time window. |
+
+
+Table 2: The statistical methods applied to the global surface temperature datasets to analyse and visualise trends. The methods range from smoothing techniques like LOESS and moving averages to time series models like ARIMA, each chosen to highlight different aspects of temperature trends and long-term changes in the data.
+
+
+
+
+
+
+
+
