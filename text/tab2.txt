@@ -1,0 +1,13 @@
+This tab displays an annual timeseries of global surface temperature anomalies relative to the 1850-1900 average for the years 1950-2022. The black line shows the observed temperature anomaly based on IPCC methods (Forster et al., 2023), which can be compared against selected datasets that use different methods to calculate or project temperature trends. See the Climate Information tab for more detail.
+
+Interactive Options:
+
+	•	Temperature Dataset Selection: Users can choose from a variety of datasets that represent different projections of global surface temperatures, including:
+	•	LOESS: A smoothed curve created using local polynomial regression to highlight general trends.
+	•	Last 2010-year 20avg: The average temperature calculated over the last 20 years, up to 2010.
+	•	Last-year 20avg 20GWL: The average temperature over the last 20 years, focusing on a 20-year global warming limit.
+	•	End of 30-year Trend C3S: The final value of a 30-year temperature trend from the C3S dataset.
+	•	Forecast RCP4.5 CGWL: Projected temperature trends under the RCP4.5 climate scenario.
+	•	Human Induced Warming: A dataset focusing on the temperature increase attributed to human activities.
+	•	UKCP18 RCP4.5 CGWL: Projections from the UKCP18 dataset under the RCP4.5 scenario.
+	•	Display Options: Users can opt to display only the selected dataset or to show all available datasets alongside the observed temperature data. 

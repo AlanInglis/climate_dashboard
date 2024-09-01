@@ -1,0 +1,9 @@
+This tab presents a visual summary of the current level of global surface warming relative to the pre-industrial era (1850-1900 average). The plot shows temperature estimates from various temperature datasets, each represented by a bar. The uncertainty ranges for these estimates are highlighted by shaded regions, indicating the potential variability in the data. 
+
+Two critical thresholds from the Paris Agreement are marked on the plot: 1.5°C and 2.0°C above pre-industrial levels. These lines serve as benchmarks for understanding how close current global warming is to the targets set by international climate agreements. See the Climate Information tab for more detail.
+
+Key Features:
+
+	•	Temperature Estimates: The plot displays estimates of current global warming from different temperature datasets, each providing a unique perspective on how much the Earth’s surface has warmed.
+	•	Uncertainty Ranges: Shaded regions around each bar represent the uncertainty in the estimates, showing the possible range of variation in the data.
+	•	Critical Thresholds: Horizontal lines at 1.5°C and 2.0°C indicate the key thresholds set by the Paris Agreement.

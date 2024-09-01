@@ -1,0 +1,13 @@
+The plot displays the temperature anomaly, which is the difference between observed temperatures and the average temperature during a defined pre-industrial baseline period. The data is visualised over time, with the option to apply different smoothing methods to highlight underlying trends and reduce short-term fluctuations. The black line represents observed data, while the coloured lines represent smoothed trends based on different statistical methods. See the Climate Information tab for more detail.
+
+Interactive Options:
+
+	•	Dataset Selection: Users can select from a range of global temperature datasets, including NASA_GISS, HADCRUT5, CRUTEM5, HADSST, NOAA_NCEI, ERA_5, HAD_CRUT4_Krig, and Berkeley. Each dataset offers a slightly different perspective on global temperature trends based on its data sources and methodologies.
+	•	Pre-Industrial Period Definition: Users can define the start and end years of the pre-industrial period, which is used as the baseline for calculating the temperature anomaly. This allows for analysis based on different historical baselines.
+	•	Smoothing Methods: A variety of smoothing methods are available to apply to the data, including:
+	•	LOESS: Local polynomial regression for smoothing data while preserving local patterns.
+	•	Spline: Penalized cubic regression spline that provides a smooth curve through the data.
+	•	ARIMA: A statistical model that uses time series forecasting to smooth the data.
+	•	20yrlt/30yrlt: Linear trends over 20 and 30 years, respectively, highlighting longer-term changes.
+	•	Other Methods: Including One-Sided Moving Averages (OSMA) and Cubic Orthogonal Regression (COR), each offering different approaches to trend analysis.
+	
